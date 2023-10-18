@@ -1,6 +1,3 @@
-const DATA_MODEL = "https://raw.githubusercontent.com/CBIIT/ctdc-model/initial_cmb_rebuild_of_ctdc_data_model/model-desc/ctdc_model_file.yaml";
-const DATA_MODEL_PROPS = "https://raw.githubusercontent.com/CBIIT/ctdc-model/initial_cmb_rebuild_of_ctdc_data_model/model-desc/ctdc_model_properties_file.yaml";
-
 window.injectedEnv = {
   REACT_APP_BACKEND_GETUSERINFO_API: 'https://k9dc.essential-dev.com/fence/login/',
   REACT_APP_LOGIN_URL: 'https://nci-crdc-staging.datacommons.io/user/oauth2/authorize?client_id=82pslYFJqA7auRvKYfTOK67jzQAMb8f6C33tlmZz&response_type=code&redirect_uri=https%3A%2F%2Fk9dc.essential-dev.com%2F&scope=openid%20user',
@@ -12,8 +9,8 @@ window.injectedEnv = {
   REACT_APP_ABOUT_CONTENT_URL: 'https://raw.githubusercontent.com/CBIIT/bento-icdc-static-content/develop/aboutPagesContent.yaml',
   REACT_APP_GA_TRACKING_ID: 'UA-154442677-1',
   REACT_APP_FILE_SERVICE_API: 'https://caninecommons-dev.cancer.gov/api/files/',
-  REACT_APP_DATA_MODEL: DATA_MODEL,
-  REACT_APP_DATA_MODEL_PROPS: DATA_MODEL_PROPS,
+  REACT_APP_DATA_MODEL: 'https://raw.githubusercontent.com/CBIIT/icdc-model-tool/develop/model-desc/icdc-model.yml',
+  REACT_APP_DATA_MODEL_PROPS: 'https://raw.githubusercontent.com/CBIIT/icdc-model-tool/develop/model-desc/icdc-model-props.yml',
   REACT_APP_LANDING_DATA: 'https://raw.githubusercontent.com/CBIIT/bento-icdc-static-content/develop/landingView.yaml',
   REACT_APP_NEWS_DATA: 'https://raw.githubusercontent.com/CBIIT/bento-icdc-static-content/develop/newsView.yaml',
   REACT_APP_DMN_README: 'https://raw.githubusercontent.com/CBIIT/icdc-readMe-content/dev/Data_Model_Navigator_README.md',
